@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>space</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=M+PLUS+Rounded+1c:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" /> -->
+
+
+
+
+</head>
+
+<body>
+    <header>
+
+        <div id=number></div>
+    </header>
+    <div id=apodImg></div>
+    <div class="apod_wrap">
+        <button class="right" id="apod_btn"><i class="fas fa-space-shuttle fa-lg"></i></button>
+        <div id=apodText></div>
+    </div>
+    <div id=apodR></div>
+
+    <!-- <div id="map"></div> -->
+
+    <h3>「うちゅう」の本</h3>
+    <div id="books"></div>
+
+    <div class="btn_wrap">
+        <button class="btn-animation-border" id="star"><i class="fas fa-star-half-alt fa-lg"></i></button>
+        <button id="astronaut"><i class="fas fa-user-astronaut fa-lg"></i></button>
+        <button id="meteor"><i class="fas fa-meteor fa-lg"></i></button>
+    </div>
+    <button id="btn"><i class="fas fa-search fa-lg"></i></button>
+    <input class="textbox" type='search' id='$q' />
+    <div id="searchBooks"></div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+    <script src="https://kit.fontawesome.com/b28496ef11.js" crossorigin="anonymous"></script>
+
+    <!-- axiosライブラリの読み込み -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script> -->
+    <!-- firebaseの読み込み -->
+
+    </script>
+    <script src="js/man.js"></script>
+
+
+
+</body>
+
+</html>

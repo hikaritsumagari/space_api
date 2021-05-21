@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: black;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    
+}
+body{
+    width: 100%;
+    display: block;
+    text-align:center;
+    font-size: 3.6rem;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+#number{
+    margin: 0 50px;
+}
+#apodImg>img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.apod_wrap{
+    margin: auto;
+    width: 90%;
+}
+.right{
+    float: right;
+}
+h2{
+    font-size: 3.0rem;
+    margin: 10px;
+}
+p{
+    font-size: 1.8rem;
+    text-align: start;
+}
+h3{
+    font-size: 2.6rem;
+    margin: 100px;
+}
+.textbox{
+    border: solid 1px white;
+    height: 40px;
+    border-radius: 3px;
+    outline: none;
+    background: none;
+}
+#apodR{
+    display: flex;
+    font-size: 3.6rem;
+    width: 90%;
+    margin: 0 auto 150px;
+}
+#apodR img{
+    height: 300px;
+    padding: 15px;
+    object-fit: contain;
+}
+.apodR_box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    margin: auto;
+}
+#books{
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+#books img{
+    width: 10%;
+    object-fit: contain;
+    padding: 5px;
+}
+#searchBooks{
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+#searchBooks img{
+    width: 10%;
+    object-fit: contain;
+    padding: 5px;
+}
+.btn_wrap{
+    display: flex;
+    margin: 30px auto 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn_wrap button{
+    margin: 10px 50px;
+}
+button{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+}
+#btn{
+    border: none;
+}
+#map { height: 180px; }
